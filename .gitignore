@@ -1,0 +1,43 @@
+# C# / .NET Core / Visual Studio
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación y respaldos
+*.pidb
+*.lock
+*.rsuser
+*.cache
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.intermediate
+*.manifest
+
+# Configuración de herramientas y dependencias locales
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# VS Code (opcional, por si usas este editor)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# Respaldos de editores y sistema operativo
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
