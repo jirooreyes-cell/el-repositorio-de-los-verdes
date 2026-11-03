@@ -37,32 +37,32 @@ class Program
         DiccionarioHabilidades diccionario = new DiccionarioHabilidades();
         diccionario.ConsultarItem("Poción de Regeneración");
         diccionario.ConsultarItem("Llave Dorada");
+        Console.WriteLine();
 
-          // --- 5. PRUEBA DE LISTAS CIRCULARES (Rotación de Hechizos) ---
+        // 5. PRUEBA DE LISTAS CIRCULARES (Rotación de Hechizos)
         Console.WriteLine("--- 5. RAMA DE LISTAS CIRCULARES (HECHIZOS) ---");
         ListaCircularHechizos rotacionHechizos = new ListaCircularHechizos();
         rotacionHechizos.AgregarHechizo("Fuego Básico");
         rotacionHechizos.AgregarHechizo("Levitación");
         rotacionHechizos.AgregarHechizo("Conjuro Definitivo");
         
-        // Simulando la rotación en combate del mago
         rotacionHechizos.SiguienteHechizo();
         rotacionHechizos.SiguienteHechizo();
         rotacionHechizos.SiguienteHechizo();
         Console.WriteLine();
 
-        // --- 6. PRUEBA DE LISTAS CIRCULARES (Rotación de Pociones HUD) ---
+        // 6. PRUEBA DE LISTAS CIRCULARES (Rotación de Pociones HUD)
         Console.WriteLine("--- 6. RAMA DE LISTAS CIRCULARES (POCIONES) ---");
         ListaCircularPociones rotacionPociones = new ListaCircularPociones();
         rotacionPociones.AgregarPocion("Poción de Vida Menor");
         rotacionPociones.AgregarPocion("Poción de Regeneración");
         rotacionPociones.AgregarPocion("Poción de Vuelo");
 
-        // Simulando el cambio rápido de pociones
         rotacionPociones.SiguientePocion();
         rotacionPociones.SiguientePocion();
+
         Console.WriteLine("\n==================================================");
-        Console.WriteLine(" ¡Estructuras operando correctamente sin listas enlazadas!");
-        Console.WriteLine("==================================================");
+        Console.WriteLine(" ¡Todas las estructuras operan correctamente en el juego!");
+        Console.WriteLine("==================================================\n");
     }
 }
